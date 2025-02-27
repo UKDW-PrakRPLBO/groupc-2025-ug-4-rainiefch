@@ -21,7 +21,7 @@ public class Main {
 
         Colokan hdmi = new HDMI(65_000, 100, "Advan");
         tv.connect(hdmi);
-        System.out.println("TV dengan colokan merk " + vga.getMerk() + " dapat menampilkan gambar " + tv.getResolution() +
+        System.out.println("TV dengan colokan merk " + hdmi.getMerk() + " dapat menampilkan gambar " + tv.getResolution() +
                 "p");
     }
 }
